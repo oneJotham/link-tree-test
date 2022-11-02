@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  /* height: 100vh; */
+  background:#B2BEB5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*#256D85*/
+#container{
+  margin: auto;
+  background: #f7efd2;
+  width: 500px;
+  height: 730px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+#twitter{
+  color: #475c6c;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+/*#4e9caf*/
+.btn{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color:#ffffff;
+  padding: 0;
+  text-align: center;
+  border-radius: 5px;
+  color:#54626F;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.btn:hover{
+  background-color:#eed7a1;
+}
+
+#links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+#text{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  margin: 5px;
+}
+
